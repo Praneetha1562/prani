@@ -1,0 +1,46 @@
+Clients:Pool&khyaal
+
+DEV
+https://getkyc.syntizen.com/admin/  
+https://getkyc.syntizen.com/user/
+
+UAT
+https://preprodvcip.syntizen.com/admin/
+https://preprodvcip.syntizen.com/user/
+
+PROD
+https://getkyc.com/admin/
+https://getkyc.com/user/
+
+TRANSCORP
+https://kycuat.transcorpint.com/
+https://kycuat.transcorpint.com/user/
+https://kycuat.transcorpint.com/admin/
+
+
+Admins:                                                   
+
+DEV: devtester1@syntizen.com                              
+UAT: uattester1@syntizen.com	                            
+PROD: tester1@syntizen.com                                
+TRANSCORP: tide@dev.com
+
+
+
+
+DEV(Pool)                                                 DEV(Khyaal)                                          TRANSCORP(DEV&UAT)
+devagentpool_tester1@syntizen.com                         devagentkhyaal_tester1@syntizen.com                  Admin/Auditor tide@dev.com
+devauditorpool_tester1@syntizen.com                       devauditorkhyaal_tester1@syntizen.com			    tideagent@uat.com
+
+UAT(Pool)                                                 UAT(Khyaal)                                          uat.tester1@tide.com
+uatagentpool_tester1@syntizen.com                         uatagentkhyaal_tester1@syntizen.com
+uatauditorpool_tester1@syntizen.com                       uatauditorkhyaal_tester1@syntizen.com
+
+PROD(Pool)           
+agent_tester1@syntizen.com
+auditor_tester1@syntizen.com
+
+
+
+
+
